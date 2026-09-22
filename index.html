@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sarah — Developer Portfolio</title>
+  <title>Sarah's Portfolio</title>
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -178,6 +178,22 @@
       color: var(--muted);
     }
 
+    /* ── Certifications ── */
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    .skill-tag {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    
     /* ── Projects ── */
     .projects-grid {
       display: grid;
@@ -307,7 +323,7 @@
 <body>
   <div class="container">
 
-    <!-- Nav -->
+    <!-- Nav 
     <nav>
       <span class="nav-logo">sarah.dev</span>
       <ul class="nav-links">
@@ -316,41 +332,49 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    -->
 
     <!-- Hero -->
     <header class="hero">
-      <span class="hero-eyebrow">Available for opportunities</span>
-      <h1>Hi, I'm Sarah.<br />I build things for <span>the web.</span></h1>
+      <h1>Hi! I'm <span>Sarah</span>.</h1>
       <p>
-        Full-stack developer focused on crafting fast, accessible, and
-        well-designed products. I care about clean code and great user experiences.
+        Driven and proactive computer science graduate, passionate about cybersecurity, networking, and cloud.
+        Eager to continously build my skillset.
       </p>
-      <div class="btn-group">
-        <a href="#projects" class="btn btn-primary">View my work</a>
-        <a href="#contact" class="btn btn-secondary">Get in touch</a>
-      </div>
     </header>
 
     <!-- Skills -->
     <section id="skills">
       <p class="section-label">Skills</p>
       <div class="skills-grid">
-        <span class="skill-tag">TypeScript</span>
-        <span class="skill-tag">React</span>
-        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">PowerShell</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">C</span>
+        <span class="skill-tag">SQL</span>
         <span class="skill-tag">Python</span>
-        <span class="skill-tag">PostgreSQL</span>
-        <span class="skill-tag">AWS</span>
-        <span class="skill-tag">Docker</span>
-        <span class="skill-tag">GraphQL</span>
-        <span class="skill-tag">Next.js</span>
-        <span class="skill-tag">Terraform</span>
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">CI/CD</span>
+        <span class="skill-tag">Bash</span>
+        <span class="skill-tag">HTML/CSS</span>
+        <span class="skill-tag">Dart</span>
+        <span class="skill-tag">Cisco Packet Tracer</span>
+        <span class="skill-tag">Splunk</span>
+        <span class="skill-tag">Wireshark</span>
+        <span class="skill-tag">GitHub</span>
+        <span class="skill-tag">MySQL Workbench</span>
+        <span class="skill-tag">Figma</span>
+        <span class="skill-tag">AdobeXD</span>
+        <span class="skill-tag">Android Studio</span>
       </div>
     </section>
 
-    <!-- Projects -->
+    <section id="certifications">
+      <p class="section-label">Certifications</p>
+      <div class="skills-grid">
+        <span class="skill-tag">AWS Certified Cloud Practitioner</span>
+        <span class="skill-tag">Cisco Certified Network Associate</span>
+      </div>
+    </section>
+
+    <!-- Projects 
     <section id="projects">
       <p class="section-label">Projects</p>
       <div class="projects-grid">
@@ -374,44 +398,9 @@
           </div>
         </div>
 
-        <div class="project-card">
-          <h3>Shelf — Personal Library Tracker</h3>
-          <p>
-            A full-stack web app for cataloguing books, tracking reading progress,
-            and getting recommendations. Syncs across devices with offline support.
-          </p>
-          <div class="project-tags">
-            <span class="project-tag">Next.js</span>
-            <span class="project-tag">PostgreSQL</span>
-            <span class="project-tag">Prisma</span>
-            <span class="project-tag">PWA</span>
-          </div>
-          <div class="project-links">
-            <a href="#">GitHub</a>
-            <a href="#">Live demo</a>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <h3>Briefer — AI-powered Meeting Summarizer</h3>
-          <p>
-            Transcribes meeting recordings, extracts action items, and sends
-            structured summaries to Slack — integrating with calendar and
-            conferencing tools.
-          </p>
-          <div class="project-tags">
-            <span class="project-tag">Python</span>
-            <span class="project-tag">AWS Lambda</span>
-            <span class="project-tag">OpenAI API</span>
-            <span class="project-tag">Slack API</span>
-          </div>
-          <div class="project-links">
-            <a href="#">GitHub</a>
-          </div>
-        </div>
-
       </div>
     </section>
+    -->
 
     <!-- Experience -->
     <section id="experience">
@@ -419,35 +408,38 @@
       <div class="experience-list">
 
         <div class="experience-item">
-          <h3>Senior Software Engineer</h3>
-          <span class="period">2023 — Present</span>
-          <span class="company">Acme Corp</span>
+          <h3>Triage Security Analyst Intern</h3>
+          <span class="period">January 2026 — Present</span>
+          <span class="company">Arctic Wolf</span>
           <p>
-            Led front-end architecture for the core product, reduced bundle size by
-            40%, and mentored a team of four engineers.
+            •	Utilized knowledge of IT infrastructure and networking to identify security incidents, triage alerts, and resolve 300+ customer tickets weekly
+            •	Communicated directly with customers to tune alert configurations in order to better align with organizational needs, improving detection accuracy and reducing false positives
+            •	Continuously expanded technical expertise in internal security platforms, runbooks, and operational procedures while adapting to new tools and AI-assisted workflows
           </p>
         </div>
 
         <div class="experience-item">
-          <h3>Software Engineer</h3>
-          <span class="period">2021 — 2023</span>
-          <span class="company">Startup Inc.</span>
+          <h3>Business Development Intern</h3>
+          <span class="period">July 2024 — August 2024</span>
+          <span class="company">GlobalDeal</span>
           <p>
-            Built and shipped three customer-facing features, owned the data pipeline,
-            and improved API response times by 60% through caching and query optimization.
+            •	Developed business proposals aimed at increasing global brand recognition for small companies based in Japan
+            •	Researched and identified opportunities in international markets to inform business growth strategies
+            •	Designed wireframes and website prototypes in Figma, enhancing expertise in UI/UX design
           </p>
         </div>
 
         <div class="experience-item">
-          <h3>Junior Developer</h3>
-          <span class="period">2019 — 2021</span>
-          <span class="company">Dev Agency</span>
+          <h3>Cybersecurity Intern</h3>
+          <span class="period">June 2024 — July 2024</span>
+          <span class="company">Indo-Sakura Software Japan</span>
           <p>
-            Delivered client websites and web apps, collaborated with designers,
-            and maintained CI/CD pipelines.
+            •	Solidified understanding of foundational cybersecurity principles
+            •	Researched basic cybersecurity tools and concepts, documented findings and created summary reports
+            •	Developed simulated network topologies using Cisco Packet Tracer
           </p>
         </div>
-
+        
       </div>
     </section>
 
